@@ -14,6 +14,6 @@ a:hover, a:focus {
     color: palevioletred;
 }
 
-input:focus, textarea:focus {
+input:focus, textarea:focus, button:focus, select:focus {
     outline: 2px solid palevioletred;
 }
