@@ -10,10 +10,10 @@ aside {
     font-style: italic;
 }
 
-/* a:hover, a:focus {
-    color: green;
+a:hover, a:focus {
+    color: palevioletred;
 }
 
 input:focus, textarea:focus {
-    outline: 2px solid greenyellow;
-} */
+    outline: 2px solid palevioletred;
+}
