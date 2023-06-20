@@ -27,3 +27,8 @@ nav {
     top: 0;
     background-color: lightpink;
 }
+
+form > p label {
+    display: block;
+    margin: .25rem;
+}
