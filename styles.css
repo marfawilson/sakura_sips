@@ -10,8 +10,16 @@ aside {
     font-style: italic;
 }
 
+a {
+    color: palevioletred;
+}
+
 a:hover, a:focus {
     color: palevioletred;
+}
+
+a:visited {
+    color: lightpink;
 }
 
 input:focus, textarea:focus, button:focus, select:focus {
@@ -19,13 +27,20 @@ input:focus, textarea:focus, button:focus, select:focus {
 }
 
 button:hover {
-    background-color: lightpink;
+    background-color: lavenderblush;
+    border: 2px solid lightpink;
 }
 
 nav {
     position: sticky;
     top: 0;
-    background-color: lightpink;
+    background-color: lavenderblush;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 .25rem;
+    line-height: 1.5rem;
 }
 
 form > p label {
