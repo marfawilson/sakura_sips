@@ -4,7 +4,8 @@ body {
 }
 
 table, tr, td, th, caption {
-    border: 1px solid black;
+    border-inline: 1px solid black;
+    border-block: 1px solid black;
 }
 
 td:nth-child(3n+1) {
@@ -13,11 +14,11 @@ td:nth-child(3n+1) {
 
 aside {
     font-style: italic;
-    margin-bottom: .5rem;
+    margin-block-end: .5rem;
 }
 
 #intro h1 {
-    margin-bottom: .25rem;
+    margin-block-end: .25rem;
 }
 
 a {
@@ -38,22 +39,25 @@ input:focus, textarea:focus, button:focus, select:focus {
 
 button:hover {
     background-color: lavenderblush;
-    border: 2px solid lightpink;
+    border-inline: 2px solid lightpink;
+    border-block: 2px solid lightpink;
 }
 
 nav {
     position: sticky;
-    top: 0;
+    inset-block-start: 0;
     background-color: #F8E8EE;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 .25rem;
+    margin-block: 0;
+    margin-inline: .25rem;
     line-height: 1.5rem;
 }
 
 form > p label {
     display: block;
-    margin: .25rem;
+    margin-inline: .25rem;
+    margin-block: .25rem;
 }
