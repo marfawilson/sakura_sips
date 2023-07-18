@@ -65,3 +65,8 @@ form > p label {
     margin-inline: .25rem;
     margin-block: .25rem;
 }
+
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+}
