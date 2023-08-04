@@ -66,8 +66,8 @@ form > p label {
 #menu {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-evenly;
+    gap: 2.5rem;
 }
 
 .menu-flex-header {
