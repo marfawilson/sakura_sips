@@ -7,7 +7,7 @@ Thanks for checking out my project! Happy coding 👩🏽‍💻
 ***
 
 ### Currently Focused On:
-+ CSS Flexbox Layout
++ CSS Grid Layout
 + Semantically authored HTML
 
 ### Future Additions:
