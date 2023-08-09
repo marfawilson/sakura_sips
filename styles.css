@@ -1,6 +1,7 @@
 body {
     font-size: 16px;
     background-color: #F9F5F6;
+    display: grid;
 }
 
 table, tr, td, th, caption {
