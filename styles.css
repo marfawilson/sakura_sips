@@ -64,13 +64,16 @@ form > p label {
     margin-block: .25rem;
 }
 
+/* TO-DO: adjust tables & heading w/ 3 cols, 2 rows (h2 spans 2 rows)
+        h2 juices snacks
+        h2 smoothies other-drinks
+*/
 #menu {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
     justify-content: space-evenly;
-    gap: 2.5rem;
+    gap: .5rem;
 }
 
-.menu-flex-header {
+/* .menu-flex-header {
     flex-basis: 100%;
-}
+} */
