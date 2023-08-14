@@ -2,6 +2,7 @@ body {
     font-size: 16px;
     background-color: #F9F5F6;
     display: grid;
+    text-align: center;
 }
 
 table, tr, td, th, caption {
@@ -20,6 +21,11 @@ aside {
 
 #intro h1 {
     margin-block-end: .25rem;
+}
+
+hr {
+    margin-inline-start: 2em;
+    margin-inline-end: 2em;
 }
 
 a {
@@ -64,16 +70,18 @@ form > p label {
     margin-block: .25rem;
 }
 
-/* TO-DO: adjust tables & heading w/ 3 cols, 2 rows (h2 spans 2 rows)
-        h2 juices snacks
-        h2 smoothies other-drinks
-*/
 #menu {
     display: grid;
+    grid-template-areas:    
+        "h2"
+        "juices"
+        "smoothies"
+        "other-drinks"
+        "snacks";
     justify-content: space-evenly;
-    gap: .5rem;
+    grid-gap: .5rem;
 }
 
-/* .menu-flex-header {
-    flex-basis: 100%;
-} */
+.menu-header {
+    grid-area: h2;
+}
