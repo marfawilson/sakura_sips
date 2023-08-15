@@ -1,10 +1,17 @@
 body {
     font-size: 16px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 200;
     background-color: #F9F5F6;
     display: grid;
     text-align: center;
     margin-inline: 0;
     margin-block: 0;
+}
+
+h1, h2 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 300;
 }
 
 table, tr, td, th, caption {
@@ -40,6 +47,11 @@ a:hover, a:focus {
 
 a:visited {
     color: palevioletred;
+}
+
+input, textarea, button, select{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 200;
 }
 
 input:focus, textarea:focus, button:focus, select:focus {
