@@ -68,6 +68,7 @@ nav {
     position: sticky;
     inset-block-start: 0;
     background-color: #F8E8EE;
+    z-index: 1;
 }
 
 nav ul li {
