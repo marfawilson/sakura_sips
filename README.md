@@ -9,13 +9,11 @@ Thanks for checking out my project! Happy coding 👩🏽‍💻
 ***
 
 ### Currently Focused On:
-+ CSS Grid Layout
++ Getting reacquainted with Javascript
 + Semantically authored HTML
++ Using CSS to it's full potential
 
 ### Future Additions:
-+ Design Focus
-    + Finding the right color palette
-    + Understanding typography/fonts
 + Javascript functionality
     + Proper sending of form
     + More interactive features
