@@ -11,7 +11,7 @@ Thanks for checking out my project! Happy coding 👩🏽‍💻
 ### Currently Focused On:
 + Getting reacquainted with Javascript
 + Semantically authored HTML
-+ Using CSS to it's full potential
++ Using CSS to its full potential
 
 ### Future Additions:
 + Javascript functionality
