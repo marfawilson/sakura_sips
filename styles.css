@@ -100,3 +100,7 @@ form > p label {
 .menu-header {
     grid-area: h2;
 }
+
+#address {
+    margin-block-end: 15px;
+}
