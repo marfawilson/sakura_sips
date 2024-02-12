@@ -9,11 +9,13 @@ Thanks for checking out my project! Happy coding 👩🏽‍💻
 ***
 
 ### Currently Focused On:
++ Working in a new branch from the ground up
 + Getting reacquainted with Javascript
 + Semantically authored HTML
 + Using CSS to its full potential
 
 ### Future Additions:
++ Merging changes from second branch
 + Javascript functionality
     + Proper sending of form
     + More interactive features
